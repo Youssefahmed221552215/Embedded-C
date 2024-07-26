@@ -1,0 +1,25 @@
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000b0  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  000000e4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  000000e4  2**0
+                  ALLOC
+  3 .debug_info   0000005a  00000000  00000000  000000e4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  4 .debug_abbrev 0000004d  00000000  00000000  0000013e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_loc    00000038  00000000  00000000  0000018b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_aranges 00000020  00000000  00000000  000001c3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  7 .debug_line   00000061  00000000  00000000  000001e3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  8 .debug_str    000000b6  00000000  00000000  00000244  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .comment      0000007c  00000000  00000000  000002fa  2**0
+                  CONTENTS, READONLY
+ 10 .debug_frame  0000002c  00000000  00000000  00000378  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .ARM.attributes 00000033  00000000  00000000  000003a4  2**0
